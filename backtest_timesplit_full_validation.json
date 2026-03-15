@@ -1,0 +1,32 @@
+{
+  "total_markets": 1537,
+  "train_markets": 1075,
+  "test_markets": 462,
+  "train_rows": 968029,
+  "test_rows": 415499,
+  "matrix_rules": 168,
+  "rows_with_fv": 398507,
+  "results": [
+    {
+      "threshold": 0.05,
+      "n_signals": 155934,
+      "mean_pnl_per_signal": 0.023214744699680632,
+      "t_stat": 21.04028936521248,
+      "p_value_one_sided_t": 1.922932319385591e-98
+    },
+    {
+      "threshold": 0.08,
+      "n_signals": 89406,
+      "mean_pnl_per_signal": 0.018680591906583444,
+      "t_stat": 12.553042144963307,
+      "p_value_one_sided_t": 2.0517857819955766e-36
+    },
+    {
+      "threshold": 0.1,
+      "n_signals": 60304,
+      "mean_pnl_per_signal": 0.010677450915362159,
+      "t_stat": 5.849878953595294,
+      "p_value_one_sided_t": 2.4723134227116644e-09
+    }
+  ]
+}
